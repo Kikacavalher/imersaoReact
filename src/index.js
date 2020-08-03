@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './Pages/Home/index';
-import CadastroVideo from './Pages/Cadastro/Video';
-import CadastroCategoria from './Pages/Cadastro/Categoria';
+import Home from '../src/Pages/Home';
+import CadastroVideo from '../src/Pages/Cadastro/Video';
+import CadastroCategoria from '../src/Pages/Cadastro/Categoria';
 
 
 const Pagina404 = () => (<div>Página 404</div>)
